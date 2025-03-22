@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .menu {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .menu-item .info {
+            flex: 1;
+            margin-left: 10px;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+        }
+
+        .menu-item p {
+            margin: 5px 0;
+            color: gray;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <h1>Restaurant Menu</h1>
+
+        <h2>Starters</h2>
+        <div class="menu-item">
+            <img src="https://www.giggsmeat.com/wp-content/uploads/2020/10/Z03iEXDbcD-min.jpg" alt="Chicken lolipop">
+            <div class="info">
+                <h3>Chiken lolipop</h3>
+                <p>tosted with masala</p>
+            </div>
+            <span class="price">rs.400</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlScLdH0TIobnE8Z5T6x9RsGE3xPyXxhflzA&s"
+                alt="">
+            <div class="info">
+                <h3>Cashewnut chicken</h3>
+                <p>lots of cashew.</p>
+            </div>
+            <span class="price">rs.500</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.marionskitchen.com/wp-content/uploads/2019/05/Sichuan-Chilli-Prawns3-1200x1500.jpg"
+                alt="">
+            <div class="info">
+                <h3>Chilli Prawns</h3>
+                <p>spicy.</p>
+            </div>
+            <span class="price">rs.550</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://vanitascorner.com/wp-content/uploads/2021/02/Butter-Garlic-Mushrooms.jpg" alt="">
+            <div class="info">
+                <h3> Butter garlic mushroom</h3>
+                <p>spicy.</p>
+            </div>
+            <span class="price">rs.350</span>
+        </div>
+
+        <h2>Main Course</h2>
+        <div class="menu-item">
+            <img src="https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=1024x1024&w=is&k=20&c=bvTAMlq5A8Z5EhVjBn6D8eYOQS-rsuKmT9ToLkCc2Y4="
+                alt="Chicken palov">
+            <div class="info">
+                <h3>Chicken palov</h3>
+                <p>spicy and hot.</p>
+            </div>
+            <span class="price">rs.699</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://media.istockphoto.com/id/1164561431/photo/indian-style-lamb-biryani.jpg?s=1024x1024&w=is&k=20&c=mG0AM257Xod9-F_SdGLP7quKYypx1__SbnqYBpXUojk="
+                alt="Mutton palov">
+            <div class="info">
+                <h3>Mutton palov</h3>
+                <p>juicy and hot.</p>
+            </div>
+            <span class="price">rs.799</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://media.istockphoto.com/id/1253232810/photo/indian-food-biryani-with-basmati-rice-and-shrimp.jpg?s=1024x1024&w=is&k=20&c=Ep4EbLd2JS_XszJw-IKCQKPmhTtMQ4sO2d6ciC15cJA="
+                alt="Prawns Biryani">
+            <div class="info">
+                <h3>Prawns Biryani</h3>
+                <p>juicy and tasty.</p>
+            </div>
+            <span class="price">rs.899</span>
+        </div>
+        <div class="menu-item">
+            <img src="https://gingerskillet.com/wp-content/uploads/2021/03/mushroombiryani_F.jpg" alt="">
+            <div class="info">
+                <h3>mushroom palov</h3>
+                <p>fresh and spicy.</p>
+            </div>
+            <span class="price">rs.699</span>
+        </div>
+
+        <h2>Desserts</h2>
+        <div class="menu-item">
+            <img src="https://sugargeekshow.com/wp-content/uploads/2023/10/easy_chocolate_cake_slice-500x500.jpg" alt="Chocolate Cake">
+            <div class="info">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake.</p>
+            </div>
+            <span class="price">$6.99</span>
+        </div>
+    <div class="menu-item">
+        <img src="https://spaceshipsandlaserbeams.com/wp-content/uploads/2023/04/Apricot-Delight-Recipe-Card.jpg"
+            alt="">
+        <div class="info">
+            <h3>Apricoit Delight</h3>
+            <p>Rich in taste.</p>
+        </div>
+        <span class="price">rs.399</span>
+    </div>
+    
+    <div class="menu-item">
+        <img src="https://www.foodwalas.com/cdn/shop/products/18_d3d763e5-2c3a-459c-a4b6-a512f1a26b57_512x512.jpg?v=1567767132"
+            alt="">
+        <div class="info">
+            <h3>Gulab Jam</h3>
+            <p>Rich in smooth texture.</p>
+        </div>
+        <span class="price">rs.299</span>
+    </div>
+    <div class="menu-item">
+        <img src="https://static.toiimg.com/thumb/53855658.cms?imgsize=31786&width=800&height=800" alt="">
+        <div class="info">
+            <h3>Orange delight</h3>
+            <p>Superb.</p>
+        </div>
+        <span class="price">rs.199</span>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
